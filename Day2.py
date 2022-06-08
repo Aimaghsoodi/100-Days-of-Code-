@@ -1,3 +1,18 @@
+# 1: 
+# Write a program that adds the digits in a 2 digit number. e.g. if the input was 35, then the output should be 3 + 5 = 8
+two_digit_number = input("Type a two digit number: ")
+#Get the first and second digits using subscripting then convert string to int.
+first_digit = int(two_digit_number[0])
+second_digit = int(two_digit_number[1])
+#Add the two digits togeter
+two_digit_number = first_digit + second_digit
+print(two_digit_number)
+
+
+
+
+
+# 
 #If the bill was $150.00, split between 5 people, with 12% tip. 
 #Each person should pay (150.00 / 5) * 1.12 = 33.6
 #Round the result to 2 decimal places.
