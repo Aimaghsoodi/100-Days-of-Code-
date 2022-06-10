@@ -30,9 +30,36 @@ else:
   print("This is an odd number.")
 
 #3: BMI 2.0: 
+height = float(input("enter your height in m: "))
+weight = float(input("enter your weight in kg: "))
+bmi = round(weight / height ** 2)
+if bmi < 18.5:
+  print(f"Your BMI is {bmi}, you are underweight.")
+elif bmi < 25:
+  print(f"Your BMI is {bmi}, you have a normal weight.")
+elif bmi < 30:
+  print(f"Your BMI is {bmi}, you are slightly overweight.")
+elif bmi < 35:
+  print(f"Your BMI is {bmi}, you are obese.")
+else:
+  print(f"Your BMI is {bmi}, you are clinically obese.")
 
+#4: Leap Year: 
+# Write a program that works out whether if a given year is a leap year. A normal year has 365 days, leap years have 366, with an extra day in February. The reason why we have leap years is really fascinating, this video does it more justice:
+# https://www.youtube.com/watch?v=xX96xng7sAE
+# Refer to the flow chart here: https://bit.ly/36BjS2D
+if year % 4 == 0:
+  if year % 100 == 0:
+    if year % 400 == 0:
+      print("Leap year.")
+    else:
+      print("Not leap year.")
+  else:
+    print("Leap year.")
+else:
+  print("Not leap year.")
 
-
+ 
 
 
 # Treasure Island Game 
