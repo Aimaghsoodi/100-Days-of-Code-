@@ -199,6 +199,8 @@ else:
 
 #8: Treasure Island Game 
 
+# Create your own ASCII code: https://ascii.co.uk/art
+
 print('''
 *******************************************************************************
           |                   |                  |                     |
