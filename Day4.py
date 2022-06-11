@@ -1,5 +1,15 @@
+# About psudorandom number generation and setting seeds: 
+# https://www.askpython.com/python-modules/python-random-module-generate-random-numbers-sequences
+# https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/random-vs-pseudorandom-number-generators
+ 
+#1: Random numbers: 
+import random as rd
+random_float= rd.random()
+print(random_float)
+random_int = rd.randint(1,100)
+print(random_int)
 
-
+#2: Heads or Tails:
 
 
 
