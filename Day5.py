@@ -53,14 +53,26 @@ for number in range(1,101):
 print(total)
 
 #5: Adding Even Numbers:
+# You are going to write a program that calculates the sum of all the even numbers from 1 to 100.
+total = 0
+for number in range(2,101,2):
+  total+=number
+print(total)
+
+# OR
+
+total2 = 0
+for number in range(1,101):
+  if number % 2==0:
+    total2 += number
+print(total2)
+
+#5: FizBuzz Job Interview:
 
 
 
 
-
-
-
-# Password Generator Project
+#6: Password Generator Project:
 import random
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
