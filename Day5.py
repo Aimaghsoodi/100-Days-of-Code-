@@ -5,6 +5,8 @@ for fruit in fruits:
   print(fruit + "Pie")
   
 #2: Average Height:
+# while we can use print(sum(student_heights)) and print(len(student_heights))
+# we will do the following: 
 # You are going to write a program that calculates the average student height from a List of heights.
 # Demo numbers: 156 178 165 171 187
 student_heights = input("Input a list of student heights ").split()
@@ -27,14 +29,30 @@ average_height = round(total_height / number_of_students)
 print(average_height)
 
 #3: High Score: 
+# You are going to write a program that calculates the highest score from a List of scores.
+# demo number: 78, 65, 89, 86, 55, 91, 64, 89
+# while we can use print(max(student_scores))
+# we will do the following: 
+student_scores = input("Input a list of student scores ").split()
+for n in range(0, len(student_scores)):
+  student_scores[n] = int(student_scores[n])
+print(student_scores)
 
+highest_score = 0
+for score in student_scores:
+  if score > highest_score:
+    highest_score = score
+    # print(highest_score)
+    
+print(f"The highest score in the class is: {highest_score}")
 
+#4: how to add all numbers from 1 to 100?
+total = 0
+for number in range(1,101):
+  total += number
+print(total)
 
-
-
-
-
-
+#5: Adding Even Numbers:
 
 
 
